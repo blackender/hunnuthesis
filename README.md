@@ -1,6 +1,6 @@
 # hunnuthesis
 
-**hunnuthesis** 是 **hu****n**an **N**ormal **U**niversity **Thesis** LaTeX Template 的缩写。
+**hunnuthesis** 是 **hun**an **N**ormal **U**niversity **Thesis** LaTeX Template 的缩写。
 
 此宏包旨在建立一个简单易用的湖南师范大学学位论文 LaTeX 模板，包括本科综合论文训练、硕士论文、博士论文以及博士后出站报告。
 
