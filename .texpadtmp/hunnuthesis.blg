@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: /Users/nathanwu/MyDrafts/Templates/Manuscripts/LaTex/研究生模板/hunnuthesis/.texpadtmp/hunnuthesis.aux
+The style file: ../Reference/gbt7714-author-year.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 150 items from 100.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ../Reference/ref.bib
+You've used 16 entries,
+            5319 wiz_defined-function locations,
+            1146 strings with 10483 characters,
+and the built_in function-call counts, 71517 in all, are:
+= -- 2232
+> -- 7180
+< -- 9594
++ -- 3144
+- -- 851
+* -- 675
+:= -- 10472
+add.period$ -- 52
+call.type$ -- 16
+change.case$ -- 63
+chr.to.int$ -- 2752
+cite$ -- 32
+duplicate$ -- 323
+empty$ -- 964
+format.name$ -- 338
+if$ -- 18307
+int.to.chr$ -- 19
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 101
+num.names$ -- 59
+pop$ -- 2641
+preamble$ -- 1
+purify$ -- 57
+quote$ -- 0
+skip$ -- 6821
+stack$ -- 0
+substring$ -- 3854
+swap$ -- 3
+text.length$ -- 202
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 236
+warning$ -- 0
+while$ -- 281
+width$ -- 0
+write$ -- 246
