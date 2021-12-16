@@ -21,7 +21,9 @@
 %---------------------------------------------------------------------------%
 %->> Document settings
 %---------------------------------------------------------------------------%
-\usepackage[authoryear,list]{Style/artratex}% document settings
+%\usepackage[authoryear,list]{Style/artratex}% 文本: Jones (1995); 括号: (Jones, 1995)
+%\usepackage[numbers,list]{Style/artratex}% 文本: Jones [1]; 括号: [1]
+\usepackage[super,list]{Style/artratex}% 文本: Jones 上标[1]; 括号: 上标[1]
 %- usage: \usepackage[option1,option2,...,optionN]{artratex}
 %- Multiple optional arguments:
 %- [bibtex|biber]% set bibliography processor and package
