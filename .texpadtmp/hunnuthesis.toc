@@ -21,10 +21,10 @@
 \contentsline {subsection}{\numberline {2.3.5}算法}{7}{subsection.2.3.5}%
 \contentsline {subsection}{\numberline {2.3.6}参考文献引用}{9}{subsection.2.3.6}%
 \contentsline {section}{\numberline {2.4}常见使用问题}{10}{section.2.4}%
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}湖南师范大学学位论文撰写要求}{13}{appendix.A}%
-\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{13}{section.A.1}%
-\contentsline {section}{\numberline {A.2}测试公式编号 $\mitLambda ,\mitlambda ,\mittheta ,\bar {\mitLambda },\sqrt {S_{NN}}$}{13}{section.A.2}%
-\contentsline {section}{\numberline {A.3}测试生僻字}{14}{section.A.3}%
-\contentsline {chapter}{参考文献}{15}{section*.20}%
-\contentsline {chapter}{致谢}{17}{appendix*.22}%
-\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{19}{appendix*.23}%
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}湖南师范大学学位论文撰写要求}{12}{appendix.A}%
+\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{12}{section.A.1}%
+\contentsline {section}{\numberline {A.2}测试公式编号 $\mitLambda ,\mitlambda ,\mittheta ,\bar {\mitLambda },\sqrt {S_{NN}}$}{12}{section.A.2}%
+\contentsline {section}{\numberline {A.3}测试生僻字}{13}{section.A.3}%
+\contentsline {chapter}{参考文献}{14}{section*.20}%
+\contentsline {chapter}{致谢}{15}{appendix*.22}%
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{16}{appendix*.23}%

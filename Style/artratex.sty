@@ -712,22 +712,24 @@
     %- Define different kinds of header and footer for different parts
     \fancypagestyle{frontmatterstyle}{% style for frontmatter
         \fancyhf{}% clear fields
-        \fancyhead[C]{\footnotesize \ifnumodd{\value{page}}{\leftmark}{\@title}}% structure elements
+        \fancyhead[C]{\footnotesize \ifnumodd{\value{page}}{\leftmark}{\leftmark}}% structure elements
         \fancyfoot[C]{\footnotesize \thepage}% page number
         \renewcommand{\headrulewidth}{0.8pt}% header rule
         \renewcommand{\footrulewidth}{0pt}% footer rule
     }
     \fancypagestyle{mainmatterstyle}{% style for mainmatter
         \fancyhf{}% clear fields
-        \fancyhead[C]{\footnotesize \ifnumodd{\value{page}}{\leftmark}{\@title}}% structure elements
-        \fancyfoot[C]{\footnotesize \ifnumodd{\value{page}}{\hspace*{\fill}\thepage}{\thepage\hspace*{\fill}}}% page number
+        \fancyhead[C]{\footnotesize \ifnumodd{\value{page}}{\leftmark}{\leftmark}}% structure elements
+        \fancyfoot[C]{\footnotesize \thepage}% page number
+%        \fancyfoot[C]{\footnotesize \ifnumodd{\value{page}}{\hspace*{\fill}\thepage}{\thepage\hspace*{\fill}}}% page number
         \renewcommand{\headrulewidth}{0.8pt}% header rule
         \renewcommand{\footrulewidth}{0pt}% footer rule
     }
     \fancypagestyle{backmatterstyle}{% header and footer style for backmatter
         \fancyhf{}% clear fields
-        \fancyhead[C]{\footnotesize \ifnumodd{\value{page}}{\leftmark}{\@title}}% structure elements
-        \fancyfoot[C]{\footnotesize \ifnumodd{\value{page}}{\hspace*{\fill}\thepage}{\thepage\hspace*{\fill}}}% page number
+        \fancyhead[C]{\footnotesize \ifnumodd{\value{page}}{\leftmark}{\leftmark}}% structure elements
+        \fancyfoot[C]{\footnotesize \thepage}% page number 页码居中
+%        \fancyfoot[C]{\footnotesize \ifnumodd{\value{page}}{\hspace*{\fill}\thepage}{\thepage\hspace*{\fill}}}% page number 页码在边角
         \renewcommand{\headrulewidth}{0.8pt}% header rule
         \renewcommand{\footrulewidth}{0pt}% footer rule
     }

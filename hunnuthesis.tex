@@ -11,7 +11,7 @@
 %---------------------------------------------------------------------------%
 %->> Document class declaration
 %---------------------------------------------------------------------------%
-\documentclass[twoside]{Style/hunnuthesis}%
+\documentclass[oneside]{Style/hunnuthesis}%
 %- Multiple optional arguments:
 %- [<oneside|twoside|print>]% oneside eprint, twoside eprint, or paper print
 %- [fontset=<adobe|none|...>]% specify font set instead of automatic detection
@@ -44,6 +44,11 @@
 %- [xlink]% disable link colors
 \usepackage{Style/artracom}% user defined commands
 \usepackage{wasysym}
+
+% 设置公式、图、表的编号为短杆形式
+\renewcommand\theequation{\arabic{chapter}-\arabic{equation}}
+\renewcommand\thefigure{\arabic{chapter}-\arabic{figure}}
+\renewcommand\thetable{\arabic{chapter}-\arabic{table}}
 %---------------------------------------------------------------------------%
 %->> Document inclusion
 %---------------------------------------------------------------------------%

@@ -515,7 +515,8 @@
 
         \vspace*{\stretch{3}}
     \end{center}
-    \clearpage
+    \thispagestyle{empty}
+    \cleardoublepage[empty]
     \if@twoside
       \thispagestyle{empty}
       \cleardoublepage[empty]
@@ -563,6 +564,7 @@
 
         \vspace*{3ex}
     }
+    \clearpage
     \clearpage
     \if@twoside
         \thispagestyle{empty}
