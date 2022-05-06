@@ -712,14 +712,14 @@
     %- Define different kinds of header and footer for different parts
     \fancypagestyle{frontmatterstyle}{% style for frontmatter
         \fancyhf{}% clear fields
-        \fancyhead[C]{\footnotesize \ifnumodd{\value{page}}{\leftmark}{\leftmark}}% structure elements
+%        \fancyhead[C]{\footnotesize \ifnumodd{\value{page}}{\leftmark}{\leftmark}}% structure elements
         \fancyfoot[C]{\footnotesize \thepage}% page number
-        \renewcommand{\headrulewidth}{0.8pt}% header rule
+        \renewcommand{\headrulewidth}{0pt}% header rule
         \renewcommand{\footrulewidth}{0pt}% footer rule
     }
     \fancypagestyle{mainmatterstyle}{% style for mainmatter
         \fancyhf{}% clear fields
-        \fancyhead[C]{\footnotesize \ifnumodd{\value{page}}{\leftmark}{\leftmark}}% structure elements
+        \fancyhead[C]{\footnotesize \ifnumodd{\value{page}}{\@title}{\@degree} 学位论文}% structure elements
         \fancyfoot[C]{\footnotesize \thepage}% page number
 %        \fancyfoot[C]{\footnotesize \ifnumodd{\value{page}}{\hspace*{\fill}\thepage}{\thepage\hspace*{\fill}}}% page number
         \renewcommand{\headrulewidth}{0.8pt}% header rule

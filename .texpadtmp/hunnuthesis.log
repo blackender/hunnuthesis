@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.24)  6 MAY 2022 01:52
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.24)  6 MAY 2022 21:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -224,7 +224,7 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 Package: ulem 2019/11/18
 \ULdepth=\dimen176
 )) (./Style/hunnuthesis.cfg
-File: hunnuthesis.cfg 2014/10/01 v1.0 class configuration file
+File: hunnuthesis.cfg 2022/05/01 v1.0 class configuration file
 ) (./Style/artratex.sty
 
 LaTeX Warning: You have requested package `Style/artratex',
@@ -1580,21 +1580,21 @@ Package fontspec Info: Font family 'STFangsong(0)' created for font
 
 ]) (./Tex/Chap_Guide.tex [2]
 第2章
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 9.0347pt on input line 31.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 31.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 31.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 9.03276pt on input line 31.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 31.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 31.
 [3
 
 ] [4] [5]
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 9.0347pt on input line 149.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 149.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 149.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 9.03276pt on input line 149.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 149.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 149.
 File: Figures//c06h06.png Graphic file (type bmp)
 <Figures//c06h06.png>
 File: Figures//c06h06.png Graphic file (type bmp)
@@ -1697,11 +1697,11 @@ Package rerunfilecheck Info: File `hunnuthesis.out' has not changed.
 (rerunfilecheck)             Checksum: AF7111F2B35CA52B30DBACD6187DBDA1;4395.
  ) 
 Here is how much of TeX's memory you used:
- 38824 strings out of 476151
- 807043 string characters out of 5809117
- 1205438 words of memory out of 5000000
+ 38823 strings out of 476151
+ 806968 string characters out of 5809117
+ 1204390 words of memory out of 5000000
  58855 multiletter control sequences out of 15000+600000
- 484872 words of font info for 194 fonts, out of 8000000 for 9000
+ 484864 words of font info for 193 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  118i,20n,130p,1234b,2933s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

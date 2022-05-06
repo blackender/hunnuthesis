@@ -309,7 +309,8 @@
 
         \vspace*{\stretch{3}}
 
-        {\zihao{-3}\bfseries\sffamily \ulenhance[1.5pt]{\hunnu@value@ch@title}}
+        {\zihao{-3}\bfseries\sffamily {\hunnu@value@ch@title}}
+%        {\zihao{-3}\bfseries\sffamily \ulenhance[1.5pt]{\hunnu@value@ch@title}}
 
         \vspace*{\stretch{3}}
 
@@ -385,7 +386,8 @@
 
         \vspace*{\stretch{3}}
 
-        {\zihao{-1} \ulenhance[1.5pt]{\hunnu@value@ch@title}}
+        {\zihao{-1} {\hunnu@value@ch@title}}
+%        {\zihao{-1} \ulenhance[1.5pt]{\hunnu@value@ch@title}}
 
         \vspace*{\stretch{2.5}}
 
@@ -442,9 +444,11 @@
 
         \vspace*{\stretch{2}}
 
-        {\zihao{-2} \ulenhance[1.5pt]{\hunnu@value@ch@title}}
+        {\zihao{-2} {\hunnu@value@ch@title}}
+%        {\zihao{-2} \ulenhance[1.5pt]{\hunnu@value@ch@title}}
 
-        {\zihao{-3}\bfseries \ulenhance[1.5pt]{\hunnu@value@en@title}}
+        {\zihao{-3}\bfseries {\hunnu@value@en@title}}
+%        {\zihao{-3}\bfseries \ulenhance[1.5pt]{\hunnu@value@en@title}}
  
 
         \vspace*{\stretch{3}}
@@ -606,6 +610,7 @@
     \def\remarkname{\hunnu@label@en@remarkname}
     \def\proofname{\hunnu@label@en@proofname}
     \def\@title{\hunnu@value@en@titlemark}
+    \def\@degree{\hunnu@value@en@degree}
     \def\@author{\hunnu@value@en@author}
 \else
     \def\contentsname{\hunnu@label@ch@tocname}
@@ -628,6 +633,7 @@
     \def\remarkname{\hunnu@label@ch@remarkname}
     \def\proofname{\hunnu@label@ch@proofname}
     \def\@title{\hunnu@value@ch@titlemark}
+    \def\@degree{\hunnu@value@ch@degree}
     \def\@author{\hunnu@value@ch@author}
 \fi
 %---------------------------------------------------------------------------%
