@@ -215,8 +215,8 @@
 \newcommand{\studydatefrom}[1]{\def\hunnu@value@ch@studydatefrom{#1}}
 \def\hunnu@value@ch@studydateto{}
 \newcommand{\studydateto}[1]{\def\hunnu@value@ch@studydateto{#1}}
-\def\hunnu@value@ch@date{}
-\renewcommand{\date}[1]{\def\hunnu@value@ch@date{#1}}
+%\def\hunnu@value@ch@date{}
+%\renewcommand{\date}[1]{\def\hunnu@value@ch@date{#1}}
 %-
 %-> English item commands
 %-
@@ -318,10 +318,10 @@
         \def\arraystretch{1.3}
 
         \begin{tabular}{cc}
-            \makebox[.3\linewidth][s]{\hunnu@label@ch@author} & \ulenhance[1.0pt]{\makebox[.5\linewidth]{\hunnu@value@ch@author}}\\
-            \makebox[.3\linewidth][s]{\hunnu@label@ch@degreetype} & \ulenhance[1.0pt]{\makebox[.5\linewidth]{\hunnu@value@ch@degreetype}}\\
-            \makebox[.3\linewidth][s]{\hunnu@label@ch@advisor} & \ulenhance[1.0pt]{\makebox[.5\linewidth]{\hunnu@value@ch@advisor}}\\
             \makebox[.3\linewidth][s]{\hunnu@label@ch@major} & \ulenhance[1.0pt]{\makebox[.5\linewidth]{\hunnu@value@ch@major}}\\
+            \makebox[.3\linewidth][s]{\hunnu@label@ch@degreetype} & \ulenhance[1.0pt]{\makebox[.5\linewidth]{\hunnu@value@ch@degreetype}}\\
+            \makebox[.3\linewidth][s]{\hunnu@label@ch@author} & \ulenhance[1.0pt]{\makebox[.5\linewidth]{\hunnu@value@ch@author}}\\
+            \makebox[.3\linewidth][s]{\hunnu@label@ch@advisor} & \ulenhance[1.0pt]{\makebox[.5\linewidth]{\hunnu@value@ch@advisor}}\\
             \makebox[.3\linewidth][s]{\hunnu@label@ch@paperid} & \ulenhance[1.0pt]{\makebox[.5\linewidth]{\hunnu@value@ch@paperid}}\\
         \end{tabular}
 
@@ -470,6 +470,7 @@
 
         {{\hunnu@value@ch@school}学位评定委员会办公室}
 
+%        {\hunnu@value@ch@date}
         {\zhnumsetup{time=Chinese} \hunnu@value@ch@date}
 
         \vspace*{\stretch{3}}

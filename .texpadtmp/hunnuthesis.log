@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.24)  6 MAY 2022 21:34
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.24)  7 MAY 2022 17:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1425,7 +1425,7 @@ LaTeX Font Warning: Font shape `U/wasy/m/n' in size <7.52812> not available
 
 
 Underfull \hbox (badness 10000) detected at line 8
-\TU/SongtiSC(0)/b/n/14.05249 研 究 生 姓 名
+\TU/SongtiSC(0)/b/n/14.05249 学 科 专 业
  []
 
 
@@ -1435,12 +1435,12 @@ Underfull \hbox (badness 10000) detected at line 8
 
 
 Underfull \hbox (badness 10000) detected at line 8
-\TU/SongtiSC(0)/b/n/14.05249 导 师 姓 名、|  职 称
+\TU/SongtiSC(0)/b/n/14.05249 研 究 生 姓 名
  []
 
 
 Underfull \hbox (badness 10000) detected at line 8
-\TU/SongtiSC(0)/b/n/14.05249 学 科 专 业
+\TU/SongtiSC(0)/b/n/14.05249 导 师 姓 名、|  职 称
  []
 
 
@@ -1679,7 +1679,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--117
 ] [15
 
 ]
-Overfull \hbox (3.8858pt too wide) in paragraph at lines 29--30
+Overfull \hbox (3.8858pt too wide) in paragraph at lines 30--31
 \TU/entexttt/m/n/12.045 Spatio-Temporal Trajectories within Dynamic Contextual Features. Sustainability.
  []
 
@@ -1699,7 +1699,7 @@ Package rerunfilecheck Info: File `hunnuthesis.out' has not changed.
 Here is how much of TeX's memory you used:
  38823 strings out of 476151
  806968 string characters out of 5809117
- 1204390 words of memory out of 5000000
+ 1204375 words of memory out of 5000000
  58855 multiletter control sequences out of 15000+600000
  484864 words of font info for 193 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
